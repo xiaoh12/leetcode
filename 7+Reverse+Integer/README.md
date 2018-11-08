@@ -1,5 +1,4 @@
-# 此题值得记录的点
-题目链接： https://leetcode.com/problems/reverse-integer/description/
+# 题目链接： https://leetcode.com/problems/reverse-integer/description/
 
 ## 1. 算法
 python语言对于字符串或数字的反转通过切片有很**优雅**的实现方式:
@@ -12,7 +11,7 @@ for i in range(len(x)-1, -1, -1):
     y += x[i]
 ```
 
-另外，感觉这题想要考的算法点应该不是直接字符串反转，至少我面试的话，肯定还是希望能够写出用整除，一步一步pop的反转方式，也就是代码里的```def reverse_other```的实现，这种实现方式在C语言里是不是有更好的性能，值得实验一下。
+另外，感觉这题想要考的算法点应该不是直接字符串反转，至少我面试的话，肯定还是希望能够写出用整除，一步一步pop的反转方式，也就是代码里的```def reverse_other```的实现，这种实现方式在C语言里是不是有更好的性能，值得实验一下。
 
 ## 2. Python负数整除
 1. 默认的一个除号不是整除，会保留小数
