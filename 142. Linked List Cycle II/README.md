@@ -14,11 +14,11 @@
 2. slow走过的总路程为 a + b, fast走过的总路程为 a + b + c + b.
 3. slow每次1步，fast每次2步
    
-   $$(a+b)* 2 = a + b + c + b$$
+$$(a+b)* 2 = a + b + c + b$$
 
    可以推出
-   
-   $$a = c$$
+
+$$a = c$$
 4. 接着让slow从head开始， fast从meet开始，分别一步一步走，则会在start点相遇，就是我们要求的点
 
 
